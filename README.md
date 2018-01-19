@@ -44,16 +44,7 @@ However, now what we need to do is come up with some way to deal with errors. Wh
 
 To combat this, we can add an <b>If</b> statement, If the URL succeeds, make a range between 200 - 300, else the request fails.
 
-Below is the entire code up till now:
-
-
-
-
-
-
-
-
-
+# Displaying the Data
 
 We're making good progress as we've successfully used a GET HTTP request to retrieve the API endpoint which consisted of data in JSON format. So far we have been logging the data in the console. Now lets try to display this data on the front end of the website which we'll do with some DOM manipulation.
 
