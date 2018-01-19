@@ -6,15 +6,13 @@ request.open('GET', 'https://ghibliapi.herokuapp.com/films', true);
 
 request.onload = function() {
   // Begin accessing JSON data here
+  let data = JSON.parse(this.response);
+
+  data.forEach(movie => {
+    // Log each movie's title
+    console.log(movie.title);
+  });
 }
 
 // Send request
 request.send();
-
-// Begin accessing JSON data here
-let data = JSON.parse(this.response);
-
-data.forEach(movie => {
-  // Log each movie's title
-  console.log(movie.title);
-});
