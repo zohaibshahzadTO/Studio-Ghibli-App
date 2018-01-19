@@ -56,3 +56,5 @@ Below is the entire code up till now:
 
 
 We're making good progress as we've successfully used a GET HTTP request to retrieve the API endpoint which consisted of data in JSON format. So far we have been logging the data in the console. Now lets try to display this data on the front end of the website which we'll do with some DOM manipulation.
+
+After completing the DOM manipulation this project will be complete. In the end, we gained a better understanding of what an API endpoint is, how the browser communicates with the third-party API data requests and responses, how to parse JSON into Javascript arrays and objects and how to build a front end entirely with Javascript. We did this without frameworks or package managers such as Node.js, npm, Webpack, React, or Angular. Next time, I'll be delving into the complexities using such tools.
