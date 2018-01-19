@@ -29,3 +29,11 @@ What we're going to do is scroll to the films section (https://ghibliapi.herokua
 # Retrieving the Data with an HTTP request
 
 First, we'll be creating a connection to the API using XMLHttpRequest objects which is a way to open files and make HTTP requests.
+
+We’ll create a request variable and assign a new XMLHttpRequest object to it. Then we’ll open a new connection with the open() method – in the arguments we’ll specify the type of request as GET as well as the URL of the API endpoint. The request completes and we can access the data inside the onload function. When we’re done, we’ll send the request.
+
+# Working with the JSON response
+
+After receiving a response from our HTTP request, we can now do some work with it. However, the problem is that the response is in JSON and we need to convert that JSON into Javascript objects in order to work with it.
+
+To do that, we'll use JSON.parse() to parse the response and create a 'data' variable that contains all the JSON as an array of Javascript objects.
