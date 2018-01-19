@@ -10,3 +10,11 @@ request.onload = function() {
 
 // Send request
 request.send();
+
+// Begin accessing JSON data here
+let data = JSON.parse(this.response);
+
+data.forEach(movie => {
+  // Log each movie's title
+  console.log(movie.title);
+});

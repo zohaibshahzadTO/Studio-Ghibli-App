@@ -36,4 +36,4 @@ We’ll create a request variable and assign a new XMLHttpRequest object to it. 
 
 After receiving a response from our HTTP request, we can now do some work with it. However, the problem is that the response is in JSON and we need to convert that JSON into Javascript objects in order to work with it.
 
-To do that, we'll use JSON.parse() to parse the response and create a 'data' variable that contains all the JSON as an array of Javascript objects.
+To do that, we'll use JSON.parse() to parse the response and create a 'data' variable that contains all the JSON as an array of Javascript objects. After we'll use forEach() to console.log the title of each film to ensure it's working properly.
