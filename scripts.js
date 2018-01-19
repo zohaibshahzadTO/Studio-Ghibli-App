@@ -47,7 +47,7 @@ request.onload = function() {
       // Created a 'p' and set the text content to the film's titles
       const p = document.createElement('p');
       movie.description = movie.description.substring(0, 300); // limits to 300 characters
-      p.textContent = '${movie.description}...'; // End with an ellipses
+      p.textContent = `${movie.description}...`; // End with an ellipses
 
       // Appended the cards to the container element
       container.appendChild(card);
