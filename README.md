@@ -19,3 +19,13 @@ In this project we'll be focusing on Web API's, which allow a web server to inte
 Something else to note is that the HTTPS requests that will be used in this project correspond to CRUD terminology.
 
 NOTE: CRUD = Create, Read, Update, Delete
+
+# Connecting to the API
+
+The Studio Ghibli API documentation was actually designed to help developers learn how to interact with and use HTTP requests.
+
+What we're going to do is scroll to the films section (https://ghibliapi.herokuapp.com/#tag/Films). On the right hand side, you'll notice GET /films and upon clicking it, you'll see the URL of our API endpoint, https://ghibliapi.herokuapp.com/films. Clicking on the link provided will display an array of objects in JSON.
+
+# Retrieving the Data with an HTTP request
+
+First, we'll be creating a connection to the API using XMLHttpRequest objects which is a way to open files and make HTTP requests.
